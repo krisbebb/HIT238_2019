@@ -1,0 +1,21 @@
+.footer {
+    background-color: $color-grey-dark;
+    grid-row: 5 / -1;    
+
+    color: $color-white;
+    text-align: center;
+    padding-top: 1rem;
+
+    &__link,
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+        color: $color-yellow-light;
+        position: relative;
+        transition: all .2s;
+        display: inline-block;
+    }
+    &__link:hover {
+        transform: translateY(-1px) scale(1.05);
+    }
+}

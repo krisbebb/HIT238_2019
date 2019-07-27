@@ -1,0 +1,39 @@
+.header {
+    grid-row: 2 / 3;
+    
+    background-image: linear-gradient(rgba(#000, .4), rgba(#000, .4)), url(../img/jamie-davies-Hao52Fu9-F8-unsplash.jpg);
+    // background-image: url(../img/jamie-davies-Hao52Fu9-F8-unsplash.jpg);
+    // filter: url(../img/jamie-davies-Hao52Fu9-F8-unsplash.jpg);
+    // filter: brightness(.4);
+    background-size: cover;
+    z-index: -1;
+    display: grid;
+    align-items: end;
+   
+    
+    
+    
+    &__heading-1 {
+        color: $color-white;
+        font-size: 2.4rem;
+        font-family: sans-serif;
+        background-color: rgba($color-orange, .7);
+        justify-self: center;
+        padding: 1.5rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 2rem;
+        }
+        // align-items: center;
+        // align-content: center;
+        // display: block;
+    }
+
+    &__text {
+        align-self: flex-end;
+        justify-self: end;
+        color: $color-white;
+        font-family: sans-serif;
+        padding: 1rem;
+    }
+}

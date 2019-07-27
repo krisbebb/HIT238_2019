@@ -1,0 +1,97 @@
+.mobile-apps {
+    grid-row: 4 /5 ;
+    background-color: $color-yellow-light;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10rem 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+
+    @media only screen and (max-width: $bp-small) {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+        grid-column: 1 / 2;
+        grid-row: 4 / 5 ;
+        justify-content: stretch;
+    }
+   
+    &__heading-2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        grid-column: 1 / -1;
+        grid-row: 1 / 2 ;
+        text-transform: uppercase;
+    }
+
+    &__heading-3 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__section-1 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3 ;
+    }
+    &__section-2 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4 ;
+    }
+    &__section-3 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3 ;
+
+        @media only screen and (max-width: $bp-small) {
+            grid-column: 1 / 2;
+            grid-row: 4 / 5 ;
+        }
+    
+    }
+    &__section-4 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4 ;
+
+        @media only screen and (max-width: $bp-small) {
+            grid-column: 1 / 2;
+            grid-row: 5 / 6 ;
+        }
+    
+    }
+
+    &__section-5 {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+    }
+
+    &__img {
+        height: 85vh;
+        width: 95vw;
+        opacity: 0.1;
+        
+    }
+
+    figcaption {
+        text-align: right;
+        font-style: italic;
+        opacity: .3;
+        
+    }    
+    &__list {
+        margin-top: 1rem;
+        list-style-position: inside;
+        line-height: 1.2;
+
+    }
+
+    &__item {
+        padding: .5rem 2rem;
+        &:last-child {
+            margin-bottom: 1rem;
+        }
+    }
+  
+}

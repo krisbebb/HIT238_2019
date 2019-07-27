@@ -3,13 +3,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
     <title>HIT238 S2 2019</title>
 </head>
-<body>
-    <h1>HIT238 S2 2019</h1>
-    <h2><Repository for CDU course HIT238 S2 2019</h2>
-        <p>Kris Bebbington</p>
-        <p>Sydney, NSW, Australia</p>
-    
+<body class="container">
+    <nav class="nav">
+        <a href="#home" class="btn">Home</a>
+        <a href="#profile" class="btn">Profile</a>
+        <a href="#mobile" class="btn">Mobile Apps</a>
+        <a href="#footer" class="btn">Resources</a>
+    </nav>
+
+    <header class="header" id="home">
+        <h1 class="header__heading-1">HIT238 The Mobile Paradigm</h1>
+       <p class="header__text">
+        Photo by Jamie Davies on Unsplash
+       </p>
+    </header>
+
+    <section class="profile" id="profile">
+        <div class="profile__card">
+            <div class="profile__pic">
+                <img src="img/kris-1.jpg" alt="Kris" class="profile__img">
+            </div>
+            <div class="profile__name">
+                <h2 class="profile__heading-2 profile__heading-2--name">Kris Bebbington</h2> 
+                <p>External Student</p> 
+                <p>Sydney, NSW</p> 
+            </div>
+           
+        </div>
+       
+        <div class="profile__interests">
+           <h2 class="profile__heading-2 profile__heading-2--interests">Interests / Skills</h2>
+           <ul class="profile__list">
+               <li class="profile__item">Web Development</li>
+               <li class="profile__item">HTML / CSS / JavaScript</li>
+               <li class="profile__item">PHP / SQL</li>
+               <li class="profile__item">MongoDB / Express / ReactJS / Node</li>
+           </ul>
+        </div>
+    </section>
+
+    <section class="mobile-apps" id="mobile">
+        <h2 class="mobile-apps__heading-2">
+                What are mobile apps?
+        </h2>
+        <div class="mobile-apps__section-1">
+            <h3 class="mobile-apps__heading-3">Mobile Apps </h3>
+                <ul class="mobile-apps__list">
+                    <li class="mobile-apps__item">
+                        Applications typically downloadable from an app store. 
+                    </li>
+                    <li class="mobile-apps__item">
+                        Platform specific, having access to specific system resources such as GPS or camera.
+                    </li>
+                    <li class="mobile-apps__item">
+                        Also known as native mobile apps, examples include Facebook Messenger, Instagram, Snapchat.
+                    </li>
+                </ul>
+        </div>
+        <div class="mobile-apps__section-2">  
+            <h3 class="mobile-apps__heading-3">Web Apps</h3>
+                <ul class="mobile-apps__list">
+                    <li class="mobile-apps__item">
+                        Similar functionality and Ux as mobile apps, but accessed via the browser.
+                        </li>
+                    <li class="mobile-apps__item">
+                        Not downloadable, and not specific to a particular platform.                     </li>
+                    <li class="mobile-apps__item">
+                        Require an active internet connection.
+                    </li>
+                </ul>
+        </div>
+        <div class="mobile-apps__section-3">
+            <h3 class="mobile-apps__heading-3">Progressive Web Apps</h3>
+            <ul class="mobile-apps__list">
+                <li class="mobile-apps__item">
+                    Web Applications with offline storage allowing them to function like native mobile apps.
+                    Also known as PWAs. 
+                </li>
+                <li class="mobile-apps__item">
+                        Can function without an internet connection using cached data and access certain system resources.
+                </li>
+                <li class="mobile-apps__item">
+                        Made possible with advancements in browser features.
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-apps__section-4">
+            <h2 class="mobile-apps__heading-3">
+                What makes them mobile?
+            </h2>
+                <ul class="mobile-apps__list">
+                    <li class="mobile-apps__item">
+                        Responsive design allows applications to be usable across several platforms.
+                    </li>
+                    <li class="mobile-apps__item">
+                        Designing for smaller screen size, swipe controls and using smartphone / smartwatch system resources makes an application mobile.
+                    </li>
+                </ul>
+        </div>
+
+        <div class="mobile-apps__section-5">
+            <figure class="mobile-apps__figure">
+                <img src="img/2015-08-22-barnimages-roman-001.jpg"
+                        alt="Mobile phone photo" class="mobile-apps__img">
+                <figcaption>Photo courtesy of Barnimages</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer__references">
+            <h3 class="footer__heading">References / Resources </h3>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="https://careerfoundry.com/en/blog/web-development/what-is-the-difference-between-a-mobile-app-and-a-web-app/
+                    https://barnimages.com/" class="footer__link">What Is The Difference Between A Mobile App And A Web App?</a> 
+                </li>
+                <li class="footer__item">
+                    <a href="https://unsplash.com/" class="footer__link">Unsplash</a> 
+                </li>
+                <li class="footer__item">
+                    <a href="https://barnimages.com/" class="footer__link">Barn Images</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__contact">
+
+        </div>
+    </footer>
+       
 </body>
 </html>
