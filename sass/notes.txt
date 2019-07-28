@@ -21,3 +21,8 @@
 - link targets for nav
 
 - footer / contact info
+
+
+-- reduce img sizes
+
+-- fix security flaw
